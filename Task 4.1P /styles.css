@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #f2f2f2;
+  padding: 10px 20px;
+}
+
+.navbar .search {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.articles, .tutorials {
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 200px;
+}
+
+.newsletter {
+  background: #eee;
+  padding: 20px;
+}
+
+.newsletter input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  background: teal;
+  color: white;
+  padding: 20px;
+}
+
+footer p {
+  margin: 5px 0;
+}
